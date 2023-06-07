@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="verdana">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="output">
+            <input type="integer" value="0" id="output">
+        </div>
+        <div class="button-container">
+            <button class="btn" onclick="digit_onClickHandle('1')">1</button>
+            <button class="btn" onclick="digit_onClickHandle('2')">2</button>
+            <button class="btn" onclick="digit_onClickHandle('3')">3</button>
+            <button class="btn operation-btn" onclick="plus_onClickHandle('+')">+</button>
+            <button class="btn" onclick="digit_onClickHandle('4')">4</button>
+            <button class="btn" onclick="digit_onClickHandle('5')">5</button>
+            <button class="btn" onclick="digit_onClickHandle('6')">6</button>
+            <button class="btn operation-btn" onclick="plus_onClickHandle('-')">-</button>
+            <button class="btn" onclick="digit_onClickHandle('7')">7</button>
+            <button class="btn" onclick="digit_onClickHandle('8')">8</button>
+            <button class="btn" onclick="digit_onClickHandle('9')">9</button>
+            <button class="btn operation-btn" onclick="plus_onClickHandle('*')">*</button>
+            <button class="btn clear-btn" onclick="clear_onClickHandle()">C</button>
+            <button class="btn" onclick="digit_onClickHandle('0')">0</button>
+            <button class="btn operation-btn" onclick="eq_onclickHandle()">=</button>
+            <button class="btn operation-btn" onclick="plus_onClickHandle('/')">/</button>
+
+
+        </div>
+    </div>
+    <script src="calc.js"></script>
+    
+</body>
+</html>
